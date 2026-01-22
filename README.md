@@ -21,21 +21,6 @@ Instead of using ready-made "black box" solutions, this library implements signa
 
 ---
 
-## 🛠️ Installation
-
-1.  Clone the project to your computer:
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/pyEDFproject.git](https://github.com/YOUR_USERNAME/pyEDFproject.git)
-    cd pyEDFproject
-    ```
-
-2.  Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(If the requirements file is missing: `pip install numpy matplotlib scipy`)*
-
----
 
 ## 💻 Usage
 
@@ -61,7 +46,8 @@ data.convert_to_matrix()
 
 # Step 3: Convert digital data to Physical (Voltage) values
 data.convert_digital_to_physical()
-
+```
+---
 ## ℹ️ Notes
 
 * **Example Data:** A sample EDF file is included in the `sample/` directory for testing purposes.
